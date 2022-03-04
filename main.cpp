@@ -37,10 +37,16 @@ typedef union {
   }segmento;
 }ledSevenSegmentos;
 /***********************************************************************/
-
+unsigned char CLK574   = 3;  //RX
+unsigned char DSB164   = 5;  //D1
+unsigned char CLK164   = 4;  //D2
+unsigned char NUM_1   = 16;  //D0
+unsigned char NUM_2   = 14;  //D5
+unsigned char NUM_3   = 12;  //D6
+unsigned char NUM_4   = 13;  //D7
 unsigned char numeroLedArray[10]={  numCero,numUno,numDos,numTres,numCuatro,
                                     numCinco,numSeis,numSiete,numOcho,numNueve};
-unsigned char digitoActivado[4]={NUM_1,NUM_2,NUM_3,NUM_4};
+unsigned char digitoActivado[4]=	{NUM_1,NUM_2,NUM_3,NUM_4};
 
 
 volatile int    horaNTP=0,
