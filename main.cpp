@@ -57,10 +57,8 @@ boolean         tomarTiempo = true,
                 dosPuntos = true;
 ledSevenSegmentos numeroSieteSegmentos[4];
 
-//const char *ssid     = "no te cuelgues";
-//const char *password = "jazminjazmin";
-const char *ssid     = "ANDIF-AP";
-const char *password = "cerradura2015";
+const char *ssid     = "";
+const char *password = "";
 volatile unsigned char i=0;
 
 WiFiUDP       ntpUDP;
